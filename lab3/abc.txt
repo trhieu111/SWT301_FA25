@@ -1,0 +1,6 @@
+Unit Test Results for AccountService:
+Test 1: username='john123', password='pass123', email='john@example.com' => Expected=true, Got=true => PASSED
+Test 2: username='', password='pass123', email='john@example.com' => Expected=false, Got=false => PASSED
+Test 3: username='alice', password='short', email='alice@mail.com' => Expected=false, Got=false => PASSED
+Test 4: username='bob123', password='password', email='bobmail.com' => Expected=false, Got=false => PASSED
+Test 5: username='carol', password='password', email='carol@domain.com' => Expected=true, Got=true => PASSED
